@@ -28,7 +28,7 @@ O projeto utiliza **imagens de fundo fixas** que permanecem estáticas enquanto 
 | Dispositivo | Visualização |
 |-------------|--------------|
 | **Desktop** | ![Desktop - Efeito Parallax](Imagens/Flor.png) | |
-| **Mobile** | ![Mobile - Efeito Parallax](Imagens/Flor.png) |
+| **Mobile** | ![Mobile - Efeito Parallax](Imagens/Caderno.png) |
 
 > As imagens de fundo permanecem fixas enquanto o texto se move sobre elas, criando o efeito característico de parallax.
 
