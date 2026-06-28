@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: "Srirancha";
+    src: url("../Fontes/Sriracha-Regular.ttf") format(opentype);
+}
+body
+{
+    font-family: "Srirancha", Arial, Helvetica, sans-serif;
+    background-color: black;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+header
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header > h1
+{
+    font-variant: small-caps;
+    font-size: 3.5vw;
+}
+header > p > a
+{
+    color: white;
+    text-decoration: none;
+    line-height: 2em;
+}
+a:hover
+{
+    background-color: rgb(183, 181, 184);
+    color: black;
+    padding: 1px;
+    border-radius: 2px;
+    text-decoration: underline;
+}
+main, p{
+    padding-bottom: 20px;
+}
+.s1
+{
+    
+    background-color: white;
+    line-height: 2em;
+    padding: 2em;
+    font-size: 3.5vw;
+}
+.foto
+{
+    padding: 20px;
+    box-shadow: inset 1px 1px 2px  rgba(73, 73, 73, 0.685);
+    background-attachment: fixed;
+    font-size: 3.5vw;
+}
+.foto > p
+{
+    background-color: rgba(0, 0, 0, 0.256);
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    box-shadow: inset 1px 1px 2px  rgba(93, 93, 93, 0.685);
+    border-radius: 4px;
+}
+#foto1
+{
+    background-image: url("../Imagens/background001.jpg");
+    background-position: center right;
+    background-size: cover;
+}
+#foto2
+{
+    background-image: url("../Imagens/background002.jpg");
+    background-position: center right;
+    background-size: cover;
+}
+footer
+{
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 10px;
+}
